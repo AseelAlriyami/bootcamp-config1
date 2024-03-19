@@ -49,9 +49,6 @@ rawdbs:
                         email: aseel.alriyami@worley.com
                         role: Bootcamp 61 Administrator
                         send-notification: false
-
-rawdbs:
-  # list of raw-dbs > containing rawtables > containing pipelines
     - rawdb-name: src:002:opcua:db
       dataset-external-id: src:002:opcua:ds
       short-name: opcua
