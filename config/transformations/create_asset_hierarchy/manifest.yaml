@@ -4,13 +4,13 @@ name: create_asset_hierarchy
 query:
     file: transformation.sql
 destination:
-  type: asset_hierarchy
+    type: asset_hierarchy
 ignoreNullFields: true
 shared: true
 action: upsert
 schedule:
-  interval: 0 * * * *
-  isPaused: false
+    interval: 0 * * * *
+    isPaused: false
 dataSetExternalId: src:001:sap:ds
 
 authentication:

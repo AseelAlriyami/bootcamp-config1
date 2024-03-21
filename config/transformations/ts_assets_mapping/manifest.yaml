@@ -4,7 +4,7 @@ name: ts_assets_mapping
 query:
     file: transformation.sql
 destination:
-  type: timeseries
+    type: timeseries
 ignoreNullFields: true
 shared: true
 action: update
